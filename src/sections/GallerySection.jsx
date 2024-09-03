@@ -12,26 +12,26 @@ export default function GallerySection() {
   ];
 
   return (
-    <section className="flex flex-col my-32">
-      <div className="max-w-7xl self-center w-full flex flex-col gap-10 my-20">
+    <section className="flex flex-col px-5 my-32 xl:px-0">
+      <div className="flex flex-col self-center w-full gap-5 my-20 max-w-7xl">
         <div>
-          <p className="font-robotoCondensed text-xl font-normal text-primary ">
+          <p className="text-xl font-normal font-robotoCondensed text-primary ">
             Prezentacja firmy
           </p>
-          <h2 className="font-bebas text-3xl uppercase font-normal text-secondary">
+          <h2 className="text-3xl font-normal uppercase font-bebas text-secondary">
             Zobacz naszą galerię zdjęć
           </h2>
         </div>
         <div className="flex flex-row gap-10">
           <Button
             type="text"
-            className="font-robotoFlex font-semibold text-primary text-base align-middle hover:opacity-80 transition-all duration-300"
+            className="text-base font-semibold align-middle transition-all duration-300 font-robotoFlex text-primary hover:opacity-80"
           >
             Samochody osobowe
           </Button>
           <Button
             type="text"
-            className="font-robotoFlex font-normal text-black text-base align-middle hover:opacity-80 transition-all duration-300"
+            className="text-base font-normal text-black align-middle transition-all duration-300 font-robotoFlex hover:opacity-80"
           >
             Samochody dostawcze
           </Button>

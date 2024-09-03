@@ -14,16 +14,23 @@ export default function HeroSection() {
         <Button>Zobacz zdjęcia</Button>
         <Button type="secondary">Zadzwoń do nas</Button>
       </div>
-      <img
-        className="absolute top-[270px] right-0 w-[100%] z-[1] xl:top-16 lg:top-[130px] md:top-[200px] md:w-[80%] sm:top-[250px] min-[470px]:top-[200px]"
-        src={require('../assets/images/cars.png')}
-        alt="cars"
-      />
+      <div>
+        <img
+          className="absolute top-[350px] right-0 w-[90%] z-[1] xl:top-[300px] md:top-[320px] md:w-[70%] sm:top-[400px] min-[752px]:top-[300px] min-[490px]:top-[300px]"
+          src={require('../assets/images/cars.png')}
+          alt="cars"
+        />
+        <img
+          className="absolute top-[350px] right-0 w-[90%] z-[1] xl:top-[300px] md:top-[320px] md:w-[70%] sm:top-[400px] min-[752px]:top-[300px] min-[490px]:top-[300px]"
+          src={require('../assets/images/shadow.png')}
+          alt="shadow"
+        />
+      </div>
 
       <img
         src={require('../assets/images/path.png')}
         alt="road"
-        className="absolute top-[-100px] right-72 w-[33%] opacity-50"
+        className="absolute hidden w-[40%] opacity-50 xl:top-[0px] xl:right-[220px] xl:w-[33%] lg:top-[0px] lg:right-[0px] lg:block"
       />
     </section>
   );
