@@ -1,6 +1,7 @@
 import Navbar from './components/Navbar';
 import HeroSection from './sections/HeroSection';
 import GallerySection from './sections/GallerySection';
+import SEOSection from './sections/SEOSection';
 
 export default function App() {
   return (
@@ -9,6 +10,7 @@ export default function App() {
         <Navbar />
         <HeroSection />
         <GallerySection />
+        <SEOSection />
       </div>
     </main>
   );

@@ -22,7 +22,7 @@ export default function Carousel({ images }) {
           />
         ))}
       </div>
-      <div className="flex justify-center mt-4 w-screen">
+      <div className="flex justify-center mt-16 w-screen">
         {images.map((_, index) => (
           <span
             key={index}

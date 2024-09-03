@@ -11,7 +11,7 @@ export default function GallerySection() {
   ];
 
   return (
-    <section className="flex flex-col">
+    <section className="flex flex-col my-20">
       <div className="max-w-7xl self-center w-full flex flex-col gap-10 my-20">
         <div>
           <p className="font-robotoCondensed text-xl font-normal text-primary ">
