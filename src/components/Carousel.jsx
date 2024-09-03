@@ -10,7 +10,7 @@ export default function Carousel({ images }) {
   return (
     <div className="overflow-hidden">
       <div
-        className="flex transition-transform duration-500 gap-16  ml-80"
+        className="flex gap-16 transition-transform duration-500 ml-80"
         style={{ transform: `translateX(-${currentIndex * 33}%)` }}
       >
         {images.map((image, index) => (
@@ -22,7 +22,7 @@ export default function Carousel({ images }) {
           />
         ))}
       </div>
-      <div className="flex justify-center mt-16 w-screen">
+      <div className="flex justify-center w-screen mt-16">
         {images.map((_, index) => (
           <span
             key={index}
