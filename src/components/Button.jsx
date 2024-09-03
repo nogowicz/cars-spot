@@ -9,12 +9,12 @@ export default function Button({
   const getClassNames = (type) => {
     switch (type) {
       case 'secondary':
-        return 'z-10 bg-transparent family-roboto text-primary px-6 py-3 rounded-lg border border-primary border-solid hover:opacity-80 cursor-pointer';
+        return 'z-10 bg-transparent family-roboto text-primary px-[8px] py-[4px]  rounded-lg border border-primary border-solid hover:opacity-80 cursor-pointer sm:px-6 sm:py-3';
       case 'text':
-        return 'z-10 bg-transparent family-roboto text-secondary hover:opacity-60 cursor-pointer';
+        return 'z-10 bg-transparent family-roboto text-secondary px-[8px] py-[4px]  hover:opacity-60 cursor-pointer sm:px-6 sm:py-3';
       case 'primary':
       default:
-        return 'z-10 bg-primary family-roboto text-white px-6 py-3 rounded-lg hover:opacity-80 cursor-pointer';
+        return 'z-10 bg-primary family-roboto text-white px-[8px] py-[4px] rounded-lg hover:opacity-80 cursor-pointer sm:px-6 sm:py-3';
     }
   };
 

@@ -12,11 +12,11 @@ export default function Navbar() {
 
   return (
     <nav
-      className={`relative z-20 self-center w-full py-10 max-w-7xl font-robotoFlex ${
+      className={`relative z-20 self-center w-full py-2 max-w-7xl font-robotoFlex ${
         isOpen ? 'bg-background' : 'bg-transparent'
       }`}
     >
-      <div className="flex flex-row items-center justify-between">
+      <div className="flex flex-row items-center justify-between p-5 xl:px-0">
         <div className="flex flex-row items-center text-2xl font-bold">
           <HiOutlineLightningBolt
             className="mr-2 text-primary"

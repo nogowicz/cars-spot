@@ -3,11 +3,11 @@ import Button from '../components/Button';
 
 export default function HeroSection() {
   return (
-    <section className="max-w-7xl w-full flex flex-col self-center gap-10 my-20">
-      <h1 className="font-normal font-bebas text-7xl uppercase max-w-[48%] tracking-[-3px]">
+    <section className="flex flex-col self-center w-full gap-5 px-5 my-10 max-w-7xl xl:px-0 lg:gap-10 lg:my-20">
+      <h1 className="font-normal  font-bebas text-3xl uppercase  2xl:max-w-[48%] sm:text-7xl sm:tracking-[-3px]">
         Sprzedajemy samochody z europy
       </h1>
-      <p className="font-robotoCondensed text-base max-w-[23%]">
+      <p className="font-robotoCondensed text-base 2xl:max-w-[23%]">
         Kup komfortowy pojazd, aby każda podróż była wyjątkowym przeżyciem
       </p>
       <div className="flex flex-row gap-10">
@@ -15,7 +15,7 @@ export default function HeroSection() {
         <Button type="secondary">Zadzwoń do nas</Button>
       </div>
       <img
-        className="absolute top-16 right-0 w-[80%] z-[1]"
+        className="absolute top-[270px] right-0 w-[100%] z-[1] xl:top-16 lg:top-[130px] md:top-[200px] md:w-[80%] sm:top-[250px] min-[470px]:top-[200px]"
         src={require('../assets/images/cars.png')}
         alt="cars"
       />
