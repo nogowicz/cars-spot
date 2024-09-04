@@ -17,14 +17,11 @@ export default function Navbar() {
       }`}
     >
       <div className="flex flex-row items-center justify-between p-5 xl:px-0">
-        <div className="flex flex-row items-center text-2xl font-bold">
-          <HiOutlineLightningBolt
-            className="mr-2 text-primary"
-            strokeWidth={2.5}
-            size={28}
-          />
-          <span className="text-primary">Cars</span>Spot
-        </div>
+        <img
+          src={require('../assets/images/logo.png')}
+          alt="logo"
+          className="w-40 cursor-pointer "
+        />
         <div className="items-center hidden gap-10 md:flex">
           <Button className="font-normal" type="text">
             Galeria zdjęć

@@ -12,7 +12,7 @@ export default function GallerySection() {
   ];
 
   return (
-    <section className="flex flex-col px-5 my-32 xl:px-0 xl:mt-96">
+    <section className="flex flex-col items-center px-5 my-32 xl:px-0 xl:mt-96">
       <div className="flex flex-col self-center w-full gap-5 my-20 max-w-7xl">
         <div>
           <p className="text-xl font-normal font-robotoCondensed text-primary ">
