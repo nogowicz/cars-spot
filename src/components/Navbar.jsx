@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
+
 import Button from './Button';
 
 export default function Navbar() {
@@ -22,7 +23,14 @@ export default function Navbar() {
           className="w-40 cursor-pointer "
         />
         <div className="items-center hidden gap-10 md:flex">
-          <Button className="font-normal" type="text">
+          <Button
+            onClick={() => {
+              const gallerySection = document.getElementById('gallery');
+              gallerySection.scrollIntoView({ behavior: 'smooth' });
+            }}
+            className="font-normal"
+            type="text"
+          >
             Galeria zdjęć
           </Button>
           <Button className="font-normal" type="text">

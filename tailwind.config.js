@@ -18,6 +18,9 @@ module.exports = {
         hint: '#F1F1F1',
         black: '#000000',
       },
+      screens: {
+        'min-570': '570px',
+      },
     },
   },
   plugins: [],
