@@ -26,8 +26,12 @@ export default function Navbar() {
           <span className="text-primary">Cars</span>Spot
         </div>
         <div className="items-center hidden gap-10 md:flex">
-          <Button type="text">Galeria zdjęć</Button>
-          <Button type="text">FaQ</Button>
+          <Button className="font-normal" type="text">
+            Galeria zdjęć
+          </Button>
+          <Button className="font-normal" type="text">
+            FaQ
+          </Button>
         </div>
         <Button className="hidden md:block">Zadzwoń do nas</Button>
         <div className="md:hidden">

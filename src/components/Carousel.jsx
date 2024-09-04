@@ -38,7 +38,7 @@ export default function Carousel({ images }) {
   return (
     <div className="overflow-hidden">
       <div
-        className="flex transition-transform duration-500 xl:ml-80"
+        className="flex transition-transform duration-500  xl:ml-80"
         style={{ transform: `translateX(-${getTranslateValue()}px)` }}
       >
         {images.map((image, index) => (
