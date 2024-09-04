@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { HiOutlineLightningBolt } from 'react-icons/hi';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import Button from './Button';
 
