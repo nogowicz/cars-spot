@@ -12,7 +12,7 @@ Cars Spot is a web application created with React and Tailwind CSS.
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/cars-spot.git
+   git clone https://github.com/nogowicz/cars-spot.git
    cd cars-spot
    ```
 
